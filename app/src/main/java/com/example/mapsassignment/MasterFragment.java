@@ -118,8 +118,7 @@ public class MasterFragment extends Fragment implements ItemTouchCallback {
                         itemAdapter.add(model);
                         fastAdapter.notifyAdapterDataSetChanged();
                     }
-                }
-                else{
+                } else {
                     Toast.makeText(getContext(), "Please Try again in 1 minute", Toast.LENGTH_SHORT).show();
                 }
 
